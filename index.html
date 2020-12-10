@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zak Albertson's Portfolio</title>
+    <title>Zak Albertson</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
@@ -15,8 +15,13 @@
     <div class="page-wrapper">
         <!-- HEADER/NAVBAR -->
         <div class="header">
-            <nav class="navbar fixed-top navbar-expand-xl navbar-dark" style="background-color: transparent">
-                <a class="navbar-brand" href="#"><b>HOME</b></a>
+            <a href="#" id="navHome">
+            <nav class="navbar fixed-top navbar-expand-xl navbar-dark" style="background-color: transparent" id="startchange">
+                <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-house" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+                    <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+                  </svg>
+                </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -24,16 +29,16 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav my-2 my-md-0 mr-md-3">
                         <li class="nav-item">
-                            <a class="nav-link" style="color: #01ADD6" href="#"><b>Introduction</b></a>
+                            <a class="nav-link" href="#intro-id"><b>Introduction</b></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" style="color: #01ADD6" href="#"><b>Overview</b></a>
+                            <a class="nav-link" href="#"><b>About Me</b></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" style="color: #01ADD6" href="#"><b>Projects</b></a>
+                            <a class="nav-link" href="#"><b>Projects</b></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" style="color: #01ADD6" href="#"><b>Contact</b></a>
+                            <a class="nav-link" href="#"><b>Contact</b></a>
                         </li>
                     </ul>
                 </div>
@@ -47,7 +52,91 @@
             <!-- <h3 class="title-desc2">DIGITAL MARKETER</h3> -->
         </div>
         <div class="margin"></div>
+        <!-- BODY INTRO -->
+        <div class="intro-wrapper">
+            <div class="intro-container">
+                <div class="container-fluid" id="intro-id">
+                    <div class="row">
+                        <div class="col-sm-3">HELLO.</div>
+                        <div class="col-sm-9">
+                            <p>You are probably here looking for a good web developer, one who knows how to fulfill
+                                engaging and creative projects. With my education
+                                from Eleven Fifty Academy combined with my experience in digital marketing and music
+                                promotion,
+                                you've found one! Check out my projects, I look forward to speaking with you.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END OF HELLO -->
+            <div class="container-fluid" id="philos-c">
+                <div class="text-center" id="philos">
+                    <p>PHILOSPHY</p>
+                </div>
+            </div>
+            <div class="phil-container">
+                <div class="container-fluid">
+                    <div class="row" id="three-phil">
+                        <div class="col-sm-4" id="communication">
+                            <svg width="4em" height="4em" viewBox="0 0 16 16" class="bi bi-arrow-counterclockwise"
+                                fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M8 3a5 5 0 1 1-4.546 2.914.5.5 0 0 0-.908-.417A6 6 0 1 0 8 2v1z" />
+                                <path
+                                    d="M8 4.466V.534a.25.25 0 0 0-.41-.192L5.23 2.308a.25.25 0 0 0 0 .384l2.36 1.966A.25.25 0 0 0 8 4.466z" />
+                            </svg>
+                            <h3>COMMUNICATION</h3>
+                        </div>
+                        <div class="col-sm-4" id="passion">
+                            <svg width="4em" height="4em" viewBox="0 0 16 16" class="bi bi-arrow-counterclockwise"
+                                fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M8 3a5 5 0 1 1-4.546 2.914.5.5 0 0 0-.908-.417A6 6 0 1 0 8 2v1z" />
+                                <path
+                                    d="M8 4.466V.534a.25.25 0 0 0-.41-.192L5.23 2.308a.25.25 0 0 0 0 .384l2.36 1.966A.25.25 0 0 0 8 4.466z" />
+                            </svg>
+                            <h3>PASSION</h3>
+                        </div>
+                        <div class="col-sm-4" id="collaboration">
+                            <svg width="4em" height="4em" viewBox="0 0 16 16" class="bi bi-arrow-counterclockwise"
+                                fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M8 3a5 5 0 1 1-4.546 2.914.5.5 0 0 0-.908-.417A6 6 0 1 0 8 2v1z" />
+                                <path
+                                    d="M8 4.466V.534a.25.25 0 0 0-.41-.192L5.23 2.308a.25.25 0 0 0 0 .384l2.36 1.966A.25.25 0 0 0 8 4.466z" />
+                            </svg>
+                            <h3>COLLABORATION</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END OF PHILOSOPHY SEC -->
+            <div class="container-fluid" id="quote-tc">
+                <div class="text-center" id="quote-title">
+                    <p id="fav-quote">Favorite Quote</p>
+                    <div class="text-center" id="quote">
+                        <div class="col-xs-offset-3 col-sm-9">
+                            "Life can be much broader once you discover one simple fact: Everything around you that you call life was made up by people that were no smarter than you and you can change it, you can influence it, you can build your own things that other people can use.""
+                        </div>
+                        <h6 class="steve-jobs">Steve Jobs</h6>
+                    </div>
+                </div>
+            </div>
+            <!-- END OF QUOTE SECTION -->
+        </div>
+        <!-- END OF INTRO WRAPPER -->
+        <div class="about-me-wrapper">
+            <div class="about-me-container">
+                <div class="container-fluid">
+                    <div class="text-center" id="about-me-t">
+                        <p>About Me</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
-
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<script src="index.js"></script>
 </html>

@@ -16,32 +16,36 @@
         <!-- HEADER/NAVBAR -->
         <div class="header">
             <a href="#" id="navHome">
-            <nav class="navbar fixed-top navbar-expand-xl navbar-dark" style="background-color: transparent" id="startchange">
-                <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-house" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
-                    <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
-                  </svg>
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav my-2 my-md-0 mr-md-3">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#intro-id"><b>Introduction</b></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><b>About Me</b></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><b>Projects</b></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><b>Contact</b></a>
-                        </li>
-                    </ul>
-                </div>
+                <nav class="navbar fixed-top navbar-expand-xl navbar-dark" style="background-color: transparent"
+                    id="startchange">
+                    <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-house" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+                        <path fill-rule="evenodd"
+                            d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
+                    </svg>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav my-2 my-md-0 mr-md-3">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#intro-nav-link-dest"><b>Introduction</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-me-sec"><b>About Me</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><b>Projects</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><b>Contact</b></a>
+                    </li>
+                </ul>
+            </div>
             </nav>
         </div>
         <!-- END HEADER/NAVBAR -->
@@ -51,6 +55,7 @@
             <div class="color-overlay"></div>
             <!-- <h3 class="title-desc2">DIGITAL MARKETER</h3> -->
         </div>
+        <div id="intro-nav-link-dest"></div>
         <div class="margin"></div>
         <!-- BODY INTRO -->
         <div class="intro-wrapper">
@@ -116,7 +121,9 @@
                     <p id="fav-quote">Favorite Quote</p>
                     <div class="text-center" id="quote">
                         <div class="col-xs-offset-3 col-sm-9">
-                            "Life can be much broader once you discover one simple fact: Everything around you that you call life was made up by people that were no smarter than you and you can change it, you can influence it, you can build your own things that other people can use.""
+                            "Life can be much broader once you discover one simple fact: Everything around you that you
+                            call life was made up by people that were no smarter than you and you can change it, you can
+                            influence it, you can build your own things that other people can use.""
                         </div>
                         <h6 class="steve-jobs">Steve Jobs</h6>
                     </div>
@@ -125,18 +132,111 @@
             <!-- END OF QUOTE SECTION -->
         </div>
         <!-- END OF INTRO WRAPPER -->
+        <!-- ABOUT ME WRAPPER -->
         <div class="about-me-wrapper">
             <div class="about-me-container">
-                <div class="container-fluid">
+                <div class="container-fluid" id="about-me-sec">
                     <div class="text-center" id="about-me-t">
-                        <p>About Me</p>
+                        <h1 id="about-me-h1">About Me<h1>
+                                <hr id="about-me-hr">
+                    </div>
+                    <div class="row" id="picAndDesc">
+                        <div class="col-sm-3" id="pic-margin">
+                            <div id="profilePic">
+                                <img src="assets/IMG_1610.jpg" alt="Photo of Zak">
+                            </div>
+                        </div>
+                        <div class="col-md-8" id="desc">
+                            <h6 id="thank-time">Thank you for taking your time to know me.</h6>
+                            <hr>
+                            <p>My name is Zak Albertson. I currently co-run a music promotion company based out of Indianapolis and freelance digital marketing. I will soon be completing the Web Development Program at Eleven Fifty Academy. I am a highly driven person with a tendency to excel in fast-pace and creative team-environments. </p>
+                            <p>I have always loved to learn, and at a young age developed a strong entrepreneurial spirit. My past marketing ventures have given me valuable experiences in connecting to and growing an audience, design, writing, sales, SEO, project planning, and branding. This year I jumped into the world of coding and am hungry to learn the ins-and-outs of front-end-development. I find it fascinating to engage users and create enjoyable experiences. 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="text-center" id="skills-title">
+                        <h6 id="skills-title-id">SKILLS</h6>
+                    </div>
+                    <div class="row" id="top-3-skills-names">
+                        <div class="col-sm-4 d-flex justify-content-center">
+                            <h6>HTML</h6>
+                        </div>
+                        <div class="col-sm-4 d-flex justify-content-center">
+                           <h6>JavaScript</h6>
+                        </div>
+                        <div class="col-sm-4 d-flex justify-content-center">
+                            <h6>GitHub</h6>
+                        </div>
+                    </div>
+                    <div class="row" id="top-3-skills">
+                        <div class="col-sm-4 d-flex justify-content-center">
+                            <div class="icon">
+                                <img src="assets/icons8-html-filetype-64.png" alt="HTML" id="html-png">
+                            </div>
+                        </div>
+                        <div class="col-sm-4 d-flex justify-content-center">
+                            <div class="icon">
+                                <img src="assets/icons8-javascript-logo-64.png" alt="JAVA" id="java-png">
+                            </div>
+                        </div>
+                        <div class="col-sm-4 d-flex justify-content-center">
+                            <div class="icon">
+                                <img src="assets/icons8-github-64.png" alt="DESIGN" id="git-png">
+                            </div>
+                        </div>
+                        <div class="skills-glowline-break">
+                            <div class="glow-lines-a" id="line-one"></div>
+                            <div class="glow-lines-b" id="line-two"></div>
+                            <div class="glow-lines-a" id="line-three"></div>
+                            <div class="glow-lines-b" id="line-four"></div>
+                            <div class="glow-lines-a" id="line-five"></div>                            
+                        </div>
+                    </div>
+                    <div class="row" id="bottom-3-skills">
+                        <div class="col-sm-4 d-flex justify-content-center">
+                            <div class="icon">
+                                <img src="assets/icons8-css-filetype-64.png" alt="CSS" id="css-png">
+                            </div>
+                        </div>
+                        <div class="col-sm-4 d-flex justify-content-center">
+                            <div class="icon">
+                                <img src="assets/icons8-bootstrap-64.png" alt="BOOTSTRAP" id="boot-png">
+                            </div>
+                        </div>
+                        <div class="col-sm-4 d-flex justify-content-center">
+                            <div class="icon">
+                                <img src="assets/icons8-web-design-256.png" alt="DESIGN" id="git-png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" id="bottom-3-skills-names">
+                        <div class="col-sm-4 d-flex justify-content-center">
+                            <h6 id="css-h6">CSS</h6>
+                        </div>
+                        <div class="col-sm-4 d-flex justify-content-center">
+                           <h6 id="boot-h6">Bootstrap4</h6>
+                        </div>
+                        <div class="col-sm-4 d-flex justify-content-center">
+                            <h6 id="wire-h6">Wireframing</h6>
+                        </div>
+                    </div>
+                    <div class="text-center" id="resume-title">
+                        <h6 id="resume-title-id">Download My <a href="#" id="resume-link">Resume</a></h6>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    </div>
+    </div>
+    </div>
 </body>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
 <script src="index.js"></script>
+
 </html>

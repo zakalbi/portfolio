@@ -62,6 +62,14 @@ TRYING TO DO A WHITE-ISH COLOR OVERLAY TO SEE HOW IT'D LOOK
     width: 100%;
 }
 
+a {
+    color: #01ADD6!important;
+}
+
+a:hover {
+    color: white!important;
+}
+
 .title-fname {
     text-align: center;
     position: absolute;
@@ -209,6 +217,9 @@ span:before{
     padding-bottom: em;
     padding-left: 4em;
     padding-right: 4em;
+    position: relative;
+    justify-content: center;
+    align-items: center;
 }
 
 #intro-id {
@@ -318,15 +329,15 @@ h6 {
     padding-bottom: 15px;
 }
 
+#thank-time {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 1.1em;
+}
+
 .intro-wrapper {
     margin-bottom: 0px!important;
     padding-bottom: 0px!important;
-}
-
-.intro-container {
-    position: relative;
-    justify-content: center;
-    align-items: center;
 }
 
 .intro-container:before {
@@ -352,3 +363,307 @@ h6 {
     filter: blur(5px);
  } 
 
+#profilePic {
+    margin-top: 1.5em!important;
+    position: relative;
+    width: 217px;
+    height: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+#profilePic:before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: 4px;
+    right: 3px;
+    bottom: 40px;
+    background: #01ADD6;
+    z-index: -1;
+}
+
+#profilePic:after {
+    content: '';
+    position: absolute;
+    top: -12px;
+    left: 0px;
+    right: -1px;
+    bottom: 40px;
+    background: #01ADD6;
+    z-index: -2;
+    filter: blur(20px);
+}
+
+#profilePic:before,
+#profilePic:after
+{
+    background: linear-gradient(235deg, white, #222222, #01ADD6 );
+}
+
+#pic-margin {
+    margin-left: 3em!important;
+}
+
+#profilePic img {
+    width: 13em!important;
+    height: auto!important;
+    margin-bottom: 3em!important;
+}
+
+.about-me-wrapper {
+    margin: 0!important;
+    padding: 0!important;
+}
+
+.about-me-container {
+    position: relative;
+    font-weight: 150;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: .08rem;
+    padding-top: .75em;
+    padding-bottom: em;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+
+#picAndDesc {
+}
+
+#about-me-h1 {
+    margin-top: 1em;
+    padding-top: .75em;
+    font-size: 1.5em;
+}
+
+#desc p {
+    color: #c1c1c1;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+#desc hr {
+    border-top: 0px transparent;
+    margin-bottom: 1em;
+    box-shadow: 1px 1px 12px #01ADD6;
+}
+
+#about-me-sec {
+    background-color: #1D1D1D;
+    padding-right: 0!important;
+    padding-left: 0!important;
+}
+
+#about-me-sec {
+    background-color: #1D1D1D;
+    padding-right: 0!important;
+    padding-left: 0!important;
+}
+
+#about-me-sec:before {
+    content: '';
+    position: absolute;
+    top: 38px;
+    left: 80px;
+    right: 80px;
+    bottom: 10px;
+    background: #01ADD6;
+    z-index: -1;
+ }
+
+ #about-me-sec:after {
+    content: '';
+    position: absolute;
+    top: 30px;
+    left: 75px;
+    right: 75px;
+    bottom: -5px;
+    background: #01ADD6;
+    z-index: -2;
+    filter: blur(5px);
+ } 
+
+#about-me-hr {
+    border-top: 2px solid #01ADD6;
+    width: 1.5em;
+    margin-left: 47.6%!important;
+    box-shadow: 1px 1px 12px #01ADD6;
+    margin-bottom: 26px;
+}
+
+#skills-title {
+    background: #222222;
+    width: 100%;
+}
+
+#skills-title-id {
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 1.5em!important;
+    padding-bottom: 1.5em!important;
+}
+
+#resume-title {
+    background: #222222;
+    width: 100%;
+}
+
+#resume-title-id {
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 1.5em!important;
+    padding-bottom: 1.5em!important;
+}
+
+#top-3-skills {
+    padding-bottom: .5em!important;
+    padding-right: 12em!important;
+}
+
+#top-3-skills-names {
+    padding-right: 12em!important;
+    height: 2.5em;
+    margin-top: 1em;
+}
+
+.icon {
+    width: 3em;
+    height: auto;
+}
+
+#html-png {
+    width: 100%;
+    height: auto;
+}
+
+#java-png {
+    width: 100%;
+    height: auto;
+}
+
+#git-png {
+    width: 100%;
+    height: auto;
+}
+
+#boot-png {
+    width: 100%;
+    height: auto;
+}
+
+#css-png {
+    width: 100%;
+    height: auto;
+}
+
+
+#line-one {
+    position: absolute;
+    left: 23.5%;
+    bottom: 22.5%;
+}
+
+#line-one:after {
+    content:"";
+    position:absolute;
+    border-top: 2px solid #01ADD6;
+    box-shadow: 1px 1px 12px #01ADD6;
+    width:35px;
+    transform: rotate(8.5deg);
+    transform-origin: 0% 0%;
+}
+
+#line-two {
+    position: absolute;
+    left: 37%;
+    bottom: 21.5%
+}
+
+#line-two:after {
+    content:"";
+    position:absolute;
+    border-top: 2px solid #01ADD6;
+    box-shadow: 1px 1px 12px #01ADD6;
+    width:35px;
+    transform: rotate(-12deg);
+    transform-origin: 0% 0%;
+}
+
+#line-three {
+    position: absolute;
+    left: 49.5%;
+    bottom: 22.25%
+}
+
+#line-three:after {
+    content:"";
+    position:absolute;
+    border-top: 2px solid #01ADD6;
+    box-shadow: 1px 1px 12px #01ADD6;
+    width:35px;
+    transform: rotate(10deg);
+    transform-origin: 0% 0%;
+}
+
+#line-four {
+    position: absolute;
+    left: 62.25%;
+    bottom: 21.25%
+}
+
+#line-four:after {
+    content:"";
+    position:absolute;
+    border-top: 2px solid #01ADD6;
+    box-shadow: 1px 1px 12px #01ADD6;
+    width:35px;
+    transform: rotate(-12deg);
+    transform-origin: 0% 0%;
+}
+
+#line-five {
+    position: absolute;
+    left: 74.5%;
+    bottom: 21.75%
+}
+
+#line-five:after {
+    content:"";
+    position:absolute;
+    border-top: 2px solid #01ADD6;
+    box-shadow: 1px 1px 12px #01ADD6;
+    width:35px;
+    transform: rotate(12deg);
+    transform-origin: 0% 0%;
+}
+
+#bottom-3-skills-names {
+    padding-left: 12em!important;
+    height: 2.5em;
+    margin-bottom: 1em;
+}
+
+#bottom-3-skills {
+    padding-left: 12em!important;
+}
+
+#css-h6 {
+    padding-top: .25em!important;
+}
+
+#boot-h6 {
+    padding-top: .25em!important;
+}
+
+#wire-h6 {
+    padding-top: .25em!important;
+}

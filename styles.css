@@ -459,12 +459,6 @@ h6 {
     padding-left: 0!important;
 }
 
-#about-me-sec {
-    background-color: #1D1D1D;
-    padding-right: 0!important;
-    padding-left: 0!important;
-}
-
 #about-me-sec:before {
     content: '';
     position: absolute;
@@ -666,4 +660,160 @@ h6 {
 
 #wire-h6 {
     padding-top: .25em!important;
+}
+
+.portfolio-wrapper {
+    margin: 0!important;
+    padding: 0!important;
+    z-index: 4;
+
+}
+
+.portfolio-container {
+    position: relative;
+    font-weight: 150;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: .08rem;
+    padding-top: .75em;
+    padding-bottom: em;
+    padding-left: 5em;
+    padding-right: 5em;
+    z-index: 5;
+
+}
+
+#portfolio-sec {
+    background-color: #1D1D1D;
+    padding-right: 0!important;
+    padding-left: 0!important;
+    padding-bottom: 3em!important;
+    margin-bottom: 3em!important;
+    z-index: 6;
+}
+
+#portfolio-sec:before {
+    content: '';
+    position: absolute;
+    top: 38px;
+    left: 80px;
+    right: 80px;
+    bottom: 10px;
+    background: #01ADD6;
+    z-index: -4
+ }
+
+ #portfolio-sec:after {
+    content: '';
+    position: absolute;
+    top: 30px;
+    left: 75px;
+    right: 75px;
+    bottom: -5px;
+    background: #01ADD6;
+    filter: blur(5px);
+    z-index: -4;
+ } 
+
+ #portfolio-hr {
+    border-top: 2px solid #01ADD6;
+    width: 1.5em;
+    margin-left: 47.6%!important;
+    box-shadow: 1px 1px 12px #01ADD6;
+}
+
+#portfolio-h1 {
+    margin-top: 1em;
+    padding-top: 1.25em;
+    padding-bottom: .25em;
+    font-size: 1.5em;
+}
+
+#portfolio-h6 {
+    font-size: 1em!important;
+    color: #c1c1c1;
+    letter-spacing: 2.5px!important;
+    padding-bottom: 1.5em!important;
+    padding-top: 0!important;
+}
+
+.gallery-container-box-main {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-gallery-container {
+    height: 33em;
+    width: 70%;
+    background-color: #222222;
+    padding: 3em;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    z-index: 6;
+}
+
+.alien-pen-box {
+    width: 13.5em;
+    height: 13.5em;
+}
+
+#alien-png {
+    width: 100%;
+    height: auto;
+}
+
+.alien-pen-box2 {
+    width: 13.5em;
+    height: 13.5em;
+}
+
+#alien-png2 {
+    width: 100%;
+    height: auto;
+}
+
+.alien-pen-box3 {
+    width: 13.5em;
+    height: 13.5em;
+}
+
+
+#alien-png3 {
+    width: 100%;
+    height: auto;
+}
+
+/* THESE NEXT 4 ARE PLACEMENTS */
+
+.alien-pen-box4 {
+    width: 13.5em;
+    height: 13.5em;
+}
+
+#alien-png4 {
+    width: 100%;
+    height: auto;
+}
+
+.alien-pen-box5 {
+    width: 13.5em;
+    height: 13.5em;
+}
+
+#alien-png5 {
+    width: 100%;
+    height: auto;
+}
+
+.alien-pen-box6 {
+    width: 13.5em;
+    height: 13.5em;
+}
+
+
+#alien-png6 {
+    width: 100%;
+    height: auto;
 }

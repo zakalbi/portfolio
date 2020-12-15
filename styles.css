@@ -667,7 +667,6 @@ h6 {
     margin: 0!important;
     padding: 0!important;
     z-index: 4;
-
 }
 
 .portfolio-container {
@@ -681,7 +680,6 @@ h6 {
     padding-left: 5em;
     padding-right: 5em;
     z-index: 5;
-
 }
 
 #portfolio-sec {
@@ -770,7 +768,65 @@ h6 {
     margin: 1em 0 1em;
 }
 
-#projectDisplayBox p    :hover {
+#projectDisplayBox p:hover {
     color: #01ADD6;
     opacity: .9;
+}
+
+.contact-wrapper {
+    margin: 0!important;
+    padding: 0!important;
+    z-index: 4;
+}
+
+.contact-container {
+    position: relative;
+    font-weight: 150;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: .08rem;
+    padding-top: .75em;
+    padding-left: 5em;
+    padding-right: 5em;
+    z-index: 5;
+}
+
+#contact-sec {
+    background-color: #1D1D1D;
+    text-align: center;
+    padding-right: 0!important;
+    padding-left: 0!important;
+    padding-bottom: 3em!important;
+    margin-bottom: 3em!important;
+    z-index: 6;
+}
+
+#contact-sec .form-control {
+    margin: 2rem;
+    background-color: #c1c1c1;
+    border: 1px solid #c1c1c1;
+}
+
+#contact-sec form .row {
+    max-width: 50%;
+    margin-left: auto!important;
+    margin-right: auto!important;
+}
+
+#contact-h1 {
+    margin-top: 1em;
+    padding-top: .75em;
+    font-size: 1.5em;
+}
+
+#contact-hr {
+    border-top: 2px solid #01ADD6;
+    width: 1.5em;
+    margin-left: 47.6%!important;
+    box-shadow: 1px 1px 12px #01ADD6;
+    margin-bottom: 26px;
+}
+
+form {
+    display: block;
 }

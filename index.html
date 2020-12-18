@@ -7,6 +7,7 @@
     <title>Zak Albertson</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/d727e56e68.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -42,21 +43,24 @@
                         <a class="nav-link" href="#portfolio-sec"><b>Projects</b></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><b>Contact</b></a>
+                        <a class="nav-link" href="#contact-sec"><b>Contact</b></a>
                     </li>
                 </ul>
             </div>
             </nav>
         </div>
         <!-- END HEADER/NAVBAR -->
+
+        <!-- HEADER SECTION -->
         <div class="header-section">
             <h1 class="title-fname">ZAK ALBERTSON</h1>
             <h3 class="title-desc1"><span></span></h3>
             <div class="color-overlay"></div>
-            <!-- <h3 class="title-desc2">DIGITAL MARKETER</h3> -->
         </div>
         <div id="intro-nav-link-dest"></div>
         <div class="margin"></div>
+        <!-- END OF HEADER SECTION -->
+
         <!-- BODY INTRO -->
         <div class="intro-wrapper">
             <div class="intro-container">
@@ -73,7 +77,9 @@
                     </div>
                 </div>
             </div>
-            <!-- END OF HELLO -->
+            <!-- END OF INTRO -->
+
+            <!-- BEGINNING OF PHILOSOPHY SECTION -->
             <div class="container-fluid" id="philos-c">
                 <div class="text-center" id="philos">
                     <p>PHILOSPHY</p>
@@ -116,6 +122,8 @@
                 </div>
             </div>
             <!-- END OF PHILOSOPHY SEC -->
+
+            <!-- BEGINNING OF QUOTE SECTION -->
             <div class="container-fluid" id="quote-tc">
                 <div class="text-center" id="quote-title">
                     <p id="fav-quote">Favorite Quote</p>
@@ -132,13 +140,14 @@
             <!-- END OF QUOTE SECTION -->
         </div>
         <!-- END OF INTRO WRAPPER -->
+
         <!-- ABOUT ME WRAPPER -->
         <div class="about-me-wrapper">
             <div class="about-me-container">
                 <div class="container-fluid" id="about-me-sec">
                     <div class="text-center">
                         <h1 id="about-me-h1">About Me</h1>
-                                <hr id="about-me-hr">
+                        <hr id="about-me-hr">
                     </div>
                     <div class="row" id="picAndDesc">
                         <div class="col-sm-3" id="pic-margin">
@@ -235,6 +244,7 @@
             </div>
         </div>
         <!-- END OF ABOUT ME SECTION -->
+
         <!-- PORTFOLIO-SEC -->
         <div class="portfolio-wrapper">
             <div class="portfolio-container">
@@ -288,18 +298,21 @@
             </div>
         </div>
         <!-- END OF PORTFOLIO SEC -->
+
+        <!-- BEGINNING OF CONTACT FORM -->
         <div class="contact-wrapper">
             <div class="contact-container">
                 <div class="container-fluid" id="contact-sec">
-                        <div class="text-center" id="contact-t">
-                            <h1 id="contact-h1">Contact Me</h1>
-                            <hr id="contact-hr">
-                        </div>
+                    <div class="text-center" id="contact-t">
+                        <h1 id="contact-h1">Let's Connect</h1>
+                        <hr id="contact-hr">
+                    </div>
                     <form action="https://formspree.io/f/xbjpzbkq" method="POST">
                         <div class="row">
                             <div class="col-sm-6">
                                 <input class="form-control" type="text" name="name" placeholder="Your Name*" required>
-                                <input class="form-control" type="phone" name="phone" placeholder="Phone Number*" required>
+                                <input class="form-control" type="phone" name="phone" placeholder="Phone Number*"
+                                    required>
                             </div>
                             <div class="col-sm-6">
                                 <input class="form-control" type="text" name="subject" placeholder="Subject*" required>
@@ -307,15 +320,26 @@
                             </div>
                         </div>
                         <div class="row">
-                            <textarea class="form-control" name="message" placeholder="Message*" required></textarea>
+                            <textarea class="form-control" name="message" placeholder="Message*" required
+                                id="messageForm"></textarea>
                         </div>
                         <div class="text-center">
-                        <button type="submit">Submit</button>
-                    </div>
+                            <button type="submit">Submit</button>
+                        </div>
+                       
                     </form>
                 </div>
             </div>
         </div>
+        <!-- END OF CONTACT FORM -->
+
+        <!-- BEGINNING OF FOOTER -->
+        <footer id="footer">
+            <i class="fab fa-github fa-2x"></i>
+            <i class="fab fa-linkedin-in fa-2x"></i>
+            <p>&copy; Zak Albertson - 2021</p>
+        </footer>
+        <!-- END OF FOOTER -->
     </div>
     </div>
 </body>

@@ -432,9 +432,6 @@ h6 {
 }
 
 
-#picAndDesc {
-}
-
 #about-me-h1 {
     margin-top: 1em;
     padding-top: .75em;
@@ -792,41 +789,128 @@ h6 {
 }
 
 #contact-sec {
-    background-color: #1D1D1D;
+    background-color: #222222;
     text-align: center;
     padding-right: 0!important;
     padding-left: 0!important;
     padding-bottom: 3em!important;
-    margin-bottom: 3em!important;
-    z-index: 6;
+    margin-bottom: 0!important;
 }
+
+#contact-sec:before {
+    content: '';
+    position: absolute;
+    top: 38px;
+    left: 80px;
+    right: 80px;
+    bottom: 10px;
+    background: #01ADD6;
+    z-index: -4
+ }
+
+#contact-sec:after {
+    content: '';
+    position: absolute;
+    top: 30px;
+    left: 75px;
+    right: 75px;
+    bottom: -5px;
+    background: #01ADD6;
+    filter: blur(5px);
+    z-index: -4;
+ } 
 
 #contact-sec .form-control {
     margin: 2rem;
-    background-color: #c1c1c1;
-    border: 1px solid #c1c1c1;
+    background-color: #1D1D1D;
+    color: #c1c1c1;
+    border: 1px solid #1D1D1D;
+    margin-bottom: 9%!important;
 }
 
 #contact-sec form .row {
     max-width: 50%;
-    margin-left: auto!important;
-    margin-right: auto!important;
+    margin-left: 22.5%!important;
+
 }
 
 #contact-h1 {
     margin-top: 1em;
-    padding-top: .75em;
+    padding-top: 1.5em;
+    padding-bottom: .5em;
     font-size: 1.5em;
 }
 
 #contact-hr {
     border-top: 2px solid #01ADD6;
-    width: 1.5em;
-    margin-left: 47.6%!important;
+    width: 4.5em;
+    margin-left: 47.2%!important;
+    margin-bottom: 3em!important;
     box-shadow: 1px 1px 12px #01ADD6;
     margin-bottom: 26px;
 }
 
 form {
     display: block;
+}
+
+#messageForm {
+    width: 75%;
+    margin-left: 17.5%!important;
+}
+
+button {
+    transform: (-50%, -50%);
+}
+
+button {
+    background: none;
+    color: white;
+    width: 90px;
+    height: 40px;
+    border: 1px solid #01ADD6;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: .6s;
+    overflow: hidden;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    background: #01ADD6;
+    cursor: pointer;
+}
+
+button:hover::before {
+    transform: translateX(300px) skewX(-15deg);
+    opacity: .6;
+    transition: .7s;
+}
+
+button:hover::after {
+    transform: translateX(300px) skewX(-15deg);
+    opacity: .6;
+    transition: .7s;
+}
+
+
+.fa-github-square {
+    color: #c1c1c1;
+}
+
+#footer {
+    background-color: #0F1008;
+    color: #c1c1c1;
+    text-align: center;
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 4%;
+    margin-top: 0;
+}
+
+#footer p {
+    margin-bottom: 0;
 }
